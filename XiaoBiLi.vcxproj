@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{75282405-5DA6-4D74-B9A5-D75F3DE9EADE}</ProjectGuid>
+    <RootNamespace>XiaoBiLi</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>true</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>DLL.lib;IPHLPAPI.lib </AdditionalDependencies>
+      <LargeAddressAware>false</LargeAddressAware>
+      <StackReserveSize>1000000</StackReserveSize>
+      <StackCommitSize>
+      </StackCommitSize>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>DLL.lib;IPHLPAPI.lib ;SkinH.lib</AdditionalDependencies>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\XiaoBiLi.ico" />
+    <None Include="res\XiaoBiLi.rc2" />
+    <None Include="图片素材\bitmap1.bmp" />
+    <None Include="图片素材\bitmap2.bmp" />
+    <None Include="图片素材\deng1guan.bmp" />
+    <None Include="图片素材\deng1kai.bmp" />
+    <None Include="图片素材\deng_red.bmp" />
+    <None Include="图片素材\deng_red1.bmp" />
+    <None Include="图片素材\hustlogo.bmp" />
+    <None Include="图片素材\hustlogo1.bmp" />
+    <None Include="图片素材\hustlogo2.bmp" />
+    <None Include="图片素材\hustlogo3.bmp" />
+    <None Include="图片素材\hustlogo4.bmp" />
+    <None Include="图片素材\hust_logo_bmp.bmp" />
+    <None Include="图片素材\hust_logo_bmp2.bmp" />
+    <None Include="图片素材\hust_logo_bmp3.bmp" />
+    <None Include="图片素材\hust_logo_bmp4.bmp" />
+    <None Include="图片素材\pc4.ico" />
+    <None Include="图片素材\theme.bmp" />
+    <None Include="图片素材\theme1.bmp" />
+    <None Include="图片素材\theme2.bmp" />
+    <None Include="图片素材\theme3.bmp" />
+    <None Include="图片素材\摄氏度.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cpage0.h" />
+    <ClInclude Include="Cpage1.h" />
+    <ClInclude Include="Cpage2.h" />
+    <ClInclude Include="Cpage3.h" />
+    <ClInclude Include="Cpage_config_ydgh.h" />
+    <ClInclude Include="Cpage_cspz_yj_3.h" />
+    <ClInclude Include="CSeries.h" />
+    <ClInclude Include="CTChart.h" />
+    <ClInclude Include="IniFileOperator.h" />
+    <ClInclude Include="ListenSocket.h" />
+    <ClInclude Include="mscomm1.h" />
+    <ClInclude Include="packetProc.h" />
+    <ClInclude Include="Page4.h" />
+    <ClInclude Include="Page_cspz_yj.h" />
+    <ClInclude Include="Page_cspz_yj_2.h" />
+    <ClInclude Include="Page_ljdd.h" />
+    <ClInclude Include="Page_nau_config.h" />
+    <ClInclude Include="Page_SCH.h" />
+    <ClInclude Include="Page_test.h" />
+    <ClInclude Include="Pag_Password.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Rwck.h" />
+    <ClInclude Include="RwyzDlg.h" />
+    <ClInclude Include="SessionSocket.h" />
+    <ClInclude Include="SkinH.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="tchart1.h" />
+    <ClInclude Include="XiaoBiLi.h" />
+    <ClInclude Include="XiaoBiLiDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cpage0.cpp" />
+    <ClCompile Include="Cpage1.cpp" />
+    <ClCompile Include="Cpage2.cpp" />
+    <ClCompile Include="Cpage3.cpp" />
+    <ClCompile Include="Cpage_config_ydgh.cpp" />
+    <ClCompile Include="Cpage_cspz_yj_3.cpp" />
+    <ClCompile Include="IniFileOperator.cpp" />
+    <ClCompile Include="ListenSocket.cpp" />
+    <ClCompile Include="mscomm1.cpp" />
+    <ClCompile Include="Page4.cpp" />
+    <ClCompile Include="Page_cspz_yj.cpp" />
+    <ClCompile Include="Page_cspz_yj_2.cpp" />
+    <ClCompile Include="Page_ljdd.cpp" />
+    <ClCompile Include="Page_nau_config.cpp" />
+    <ClCompile Include="Page_SCH.cpp" />
+    <ClCompile Include="Page_test.cpp" />
+    <ClCompile Include="Pag_Password.cpp" />
+    <ClCompile Include="Rwck.cpp" />
+    <ClCompile Include="RwyzDlg.cpp" />
+    <ClCompile Include="SessionSocket.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tchart1.cpp" />
+    <ClCompile Include="XiaoBiLi.cpp" />
+    <ClCompile Include="XiaoBiLiDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="XiaoBiLi.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="XiaoBiLi.rc" _x007B_648A5600-2C6E-101B-82B6-000000000014_x007D_="CMscomm1" _x007B_B6C10489-FB89-11D4-93C9-006008A7EED4_x007D_="CTchart1" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\XiaoBiLi.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\XiaoBiLi.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\deng1guan.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\deng1kai.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\deng_red.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\deng_red1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\theme.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\theme1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\theme2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\hust_logo_bmp.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\hust_logo_bmp2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\hust_logo_bmp3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\hust_logo_bmp4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\hustlogo.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\theme3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\hustlogo1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\hustlogo2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\hustlogo3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\hustlogo4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\摄氏度.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="图片素材\pc4.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="XiaoBiLi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="XiaoBiLiDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpage0.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpage1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ListenSocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionSocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mscomm1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Rwck.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="packetProc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RwyzDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpage2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tchart1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSeries.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CTChart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpage3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IniFileOperator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Page4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpage_config_ydgh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_ljdd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_cspz_yj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_cspz_yj_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpage_cspz_yj_3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_nau_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Pag_Password.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinH.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Page_SCH.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XiaoBiLi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XiaoBiLiDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpage0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpage1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ListenSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mscomm1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Rwck.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RwyzDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpage2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tchart1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpage3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IniFileOperator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Page4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpage_config_ydgh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_ljdd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_cspz_yj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_cspz_yj_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpage_cspz_yj_3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_nau_config.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Pag_Password.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Page_SCH.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="XiaoBiLi.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
